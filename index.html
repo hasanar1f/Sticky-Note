@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <h1>Not Your Regular Sticky Note</h1>
+        <h3>         Tip: Add your task and Click "done" when you are really done </h3>
+
+        <div class="content">
+
+            <form id="add-cafe-form">
+                <input type =  "text" name="name" placeholder="Add Task title">
+                <input type = "text" name="city" placeholder="Add Details">
+                <button>Voila!</button>
+            </form>
+
+            <ul id="cafe-list"></ul>
+
+        </div>
+
+   
+
+        <script>
+
+        // Your web app's Firebase configuration
+            var firebaseConfig = {
+                apiKey: "AIzaSyBQzQYvg2lptN3JQG0bRNgGR-2_2w06dlo",
+                authDomain: "better-call-saul-43720.firebaseapp.com",
+                databaseURL: "https://better-call-saul-43720.firebaseio.com",
+                projectId: "better-call-saul-43720",
+                storageBucket: "better-call-saul-43720.appspot.com",
+                messagingSenderId: "281283842952",
+                appId: "1:281283842952:web:e79ea5194b216e923d603d",
+                measurementId: "G-72MT7812G4"
+            };
+
+        // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            const db = firebase.firestore(); 
+            
+        </script>
+
+        <script src="app.js"></script> 
+    </body>
+</html>
