@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "780965271469",
+    "firebase_url": "https://goodman-brew-crew.firebaseio.com",
+    "project_id": "goodman-brew-crew",
+    "storage_bucket": "goodman-brew-crew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:780965271469:android:9813b04acfebef00427324",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "780965271469-98uh4fe8nnf1gvgkb422vjk6p4mq785c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpf8R521tP8CYirtahrz9yKGY8dXHResU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "780965271469-98uh4fe8nnf1gvgkb422vjk6p4mq785c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
